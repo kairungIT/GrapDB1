@@ -12,7 +12,7 @@ def _config() -> tuple[str, str, str, str]:
         cfg["uri"],
         cfg["username"],
         cfg["password"],
-        cfg.get("database", "neo4j"),
+        cfg.get("database", "ca18ca3e"),
     )
 
 
