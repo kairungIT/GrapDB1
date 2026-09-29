@@ -94,8 +94,7 @@ def explain_reason(row: dict) -> str:
 
 require_connection()
 
-with st.sidebar:
-    st.img('.img/kairung99.jpg')
+with st.sidebar:    
     st.markdown("## 📚 GraphBook")
     st.caption("Neo4j Aura + Streamlit")
     page = st.radio(
@@ -114,6 +113,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+st.img('.img/kairung99.jpg')
 
 if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
