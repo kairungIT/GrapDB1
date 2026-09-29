@@ -104,6 +104,8 @@ with st.sidebar:
     st.divider()
     st.caption("Bachelor-level Graph Database Project")
 
+st.image("kairung99.jpg")
+
 st.markdown(
     """
     <div class="hero">
@@ -113,7 +115,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-st.image('kairung99.jpg')
+
 
 if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
