@@ -113,7 +113,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-st.img('.img/kairung99.jpg')
+st.image('.img/kairung99.jpg')
 
 if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
